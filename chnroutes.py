@@ -196,8 +196,8 @@ def generate_android(metric):
 
 
 def fetch_ip_data():
-    # fetch data from apnic
-    print "Fetching data from apnic.net, it might take a few minutes, please wait..."
+    # fetch data from arin
+    print "Fetching data from arin.net, it might take a few minutes, please wait..."
     # url = r'https://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest'
     url = r'https://ftp.arin.net/pub/stats/arin/delegated-arin-extended-latest'
     data = urllib2.urlopen(url).read()
